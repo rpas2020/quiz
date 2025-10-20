@@ -61,7 +61,49 @@ button:hover:not(:disabled){transform:translateY(-1px)}
 
 .kbd{background:#0b1324;border:1px solid #20304e;border-radius:6px;padding:1px 6px;color:#e5e7eb;font-family:ui-monospace,Menlo,Consolas,monospace}
 
-@media (max-width:560px){
-  .footer-controls{flex-direction:column}
-  header{gap:8px}
+/* Móvil mejorado */
+@media (max-width: 640px){
+  header{
+    position: sticky; top: 0; z-index: 50;
+    background: linear-gradient(180deg,#ffffff,#f7f9fb);
+    padding-bottom: 10px;
+  }
+
+  .actions{
+    width: 100%;
+    gap: 8px;
+    flex-direction: column;        /* apila todo */
+    align-items: stretch;
+  }
+
+  .mode{
+    width: 100%;
+    padding: 8px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* dos columnas de botones */
+    gap: 8px;
+  }
+
+  .mode .muted.bold{
+    grid-column: 1 / -1;     /* el texto “Modo:” arriba */
+    margin-bottom: -2px;
+  }
+
+  .mode button{
+    width: 100%;
+  }
+
+  /* fila de acciones secundarias también a ancho completo */
+  .actions > button{
+    width: 100%;
+  }
+
+  /* opciones (alternativas) con más aire en táctil */
+  .opt{
+    border-radius: 16px;
+    padding: 12px 14px;
+  }
+}
+
 }

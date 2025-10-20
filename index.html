@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Examen Teórico para Obtener/Renovar/Revalidar la Credencial de RPAS</title>
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0c6171">
+  <link rel="icon" href="icons/icon-192.png">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Examen Teórico para Obtener/Renovar/Revalidar la Credencial de RPAS</h1>
+      <div class="actions">
+        <div class="mode">
+          <span class="muted bold">Modo:</span>
+          <button class="secondary" id="btnMode25">25 aleatorias</button>
+          <button class="secondary" id="btnMode100">100 aleatorias</button>
+          <button class="secondary" id="btnReshuffle" title="Generar otro set aleatorio">↻ Re-muestrear</button>
+        </div>
+        <button class="secondary" id="btnSave">Guardar progreso</button>
+        <button class="secondary" id="btnRestore">Restaurar</button>
+        <button class="ghost" id="btnReset">Reiniciar</button>
+      </div>
+    </header>
+
+    <div class="card grid" id="intro">
+      <p>
+        Responde las preguntas una por una y, al final, verás tu puntaje, las respuestas correctas/incorrectas,
+        y un mensaje motivacional. El banco completo está embebido en <code>questions.js</code>.
+      </p>
+      <div class="meta">
+        <span class="pill">Total preguntas en sesión: <b id="totalQ">–</b></span>
+        <span class="pill">Atajos: <span class="kbd">←</span> / <span class="kbd">→</span></span>
+      </div>
+      <div class="progress"><div class="bar" id="bar"></div></div>
+    </div>
+
+    <div class="card q" id="quiz" hidden>
+      <div class="meta">
+        <span>Pregunta <b id="idx">1</b>/<span id="len">1</span></span>
+        <span class="muted" id="status"></span>
+      </div>
+      <h2 id="qtext"></h2>
+      <div class="options" id="options"></div>
+      <div class="footer-controls">
+        <button id="prev" class="secondary">← Anterior</button>
+        <div style="display:flex;gap:8px">
+          <button id="skip" class="secondary">Saltar</button>
+          <button id="next">Guardar y siguiente →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card results" id="results" hidden></div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+
+  <!-- Registrar Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service-worker.js').catch(console.error);
+      });
+    }
+  </script>
+</body>
+</html>

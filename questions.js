@@ -8,11 +8,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -23,11 +23,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -153,11 +153,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "b"
@@ -191,11 +191,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -229,11 +229,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -313,11 +313,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -374,11 +374,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "b"
@@ -412,11 +412,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -427,11 +427,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -465,11 +465,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -526,11 +526,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -564,11 +564,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -740,11 +740,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -1192,11 +1192,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -1207,11 +1207,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -1429,11 +1429,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "b"
@@ -1490,11 +1490,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -1505,11 +1505,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -1957,11 +1957,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"
@@ -1995,11 +1995,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "b"
@@ -2010,11 +2010,11 @@ const FULL_BANK = [
     "options": [
       {
         "key": "a",
-        "text": "True"
+        "text": "verdadero"
       },
       {
         "key": "b",
-        "text": "False"
+        "text": "falso"
       }
     ],
     "answer": "a"

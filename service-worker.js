@@ -1,19 +1,4 @@
-// service-worker.js
-const CACHE_NAME = 'quiz-rpas-v2';
-const APP_BASE = '/quiz/'; // subcarpeta de GitHub Pages
-const ASSETS = [
-  `${APP_BASE}`,
-  `${APP_BASE}index.html`,
-  `${APP_BASE}styles.css`,
-  `${APP_BASE}app.js`,
-  `${APP_BASE}questions.js`,
-  `${APP_BASE}manifest.json`,
-  `${APP_BASE}icon/icon-192.png`,
-  `${APP_BASE}icon/icon-512.png`,
-];
 
-self.addEventListener('install', (event) => {
-  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then(async (cache) => {
       await cache.addAll(ASSETS.map((url) => new Request(url, { cache: 'reload' })));

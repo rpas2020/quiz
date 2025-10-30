@@ -101,10 +101,10 @@ function finish(){
   const pct = totalEval>0 ? Math.round((correct / totalEval) * 100) : 0;
 
   let mensaje = '';
-  if (pct >= 90) mensaje = '¡Excelente Futuro Operador RPAS! 🛩️💪';
-  else if (pct >= 70) mensaje = '¡Muy bien! Sigue practicando para perfeccionar. 🚀';
-  else if (pct >= 50) mensaje = 'Vas encaminado. Un poco más de estudio y despega. ✍️';
-  else mensaje = 'Buen intento. Repasa y vuelve a intentarlo. 💡';
+  if (pct >= 90) mensaje = '¡Excelente Futuro Operador RPAS!';
+  else if (pct >= 70) mensaje = '¡Muy bien! Sigue practicando para perfeccionar.';
+  else if (pct >= 50) mensaje = 'Ahí nomás. Un poco más de estudio y despega.';
+  else mensaje = 'Buen intento. Repasa y vuelve a intentarlo.';
 
   results.innerHTML = `
     <h3>Resultado</h3>

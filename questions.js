@@ -2109,7 +2109,7 @@ const FULL_BANK = [
         "text": "DAN 151, DAN 91, METEOROLOGÍA, AERODINÁMICA Y OPERACIONES AÉREAS."
       }
     ],
-    "answer": "d"
+    "answer": "a"
   },
   {
     "id": 100,

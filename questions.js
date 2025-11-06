@@ -1627,7 +1627,7 @@ const FULL_BANK = [
         "text": "NIEBLA EN BANCOS."
       }
     ],
-    "answer": "d"
+    "answer": "c"
   },
   {
     "id": 78,
